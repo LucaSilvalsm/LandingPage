@@ -1541,7 +1541,7 @@ p.contact-text a:hover {
 
 }
 
-@media (max-width: 360px) {
+@media (max-width: 350px) {
     /* Aqui você pode adicionar regras CSS específicas para telas menores que 1250px */
 
     .hero_area {
@@ -1558,7 +1558,7 @@ p.contact-text a:hover {
         position: absolute;
         top: 0;
         left: 100;
-        width: 120%;
+        width: 150%;
         height: 120%;
         display: flex;
         justify-content: center;
@@ -1578,17 +1578,17 @@ p.contact-text a:hover {
     }
 
     img.left {
-        width: 300px;
+        width: 250px;
 
         /* Defina o tamanho desejado para a imagem */
         margin-bottom: -120px;
-        margin-left: -120px;
+        margin-left: -50px;
     }
 
     .page-title {
         margin-top: -10px;
         text-align: center;
-        margin-left: 120px;
+        margin-left: 0;
     }
 
     /* Sobre mim */
@@ -1604,7 +1604,7 @@ p.contact-text a:hover {
         position: absolute;
         top: 0;
         left: 0;
-        width: 120%;
+        width: 150%;
         height: 100%;
         /* Ajusta a altura para ocupar toda a altura da seção */
         z-index: -1;
@@ -1612,38 +1612,39 @@ p.contact-text a:hover {
 
     section.section-heading,
     h2 {
-        width: 400px;
+        width: 280px;
         text-align: center;
 
     }
 
     .section-heading h2.page-title {
         margin-left: 0;
-        font-size: 18px;
+        font-size: 20px;
 
     }
 
     section h2#Project {
-        width: 250px;
-        margin-left: 80px;
+        
+        margin-left: 20px;
+        font-size: 20px;
     }
 
     section p.mb-2 {
-        width: 400px;
+        width: 280px;
         font-size: 18px;
         text-align: center;
         margin-left: 0;
-        margin-top: 0px;
+        margin-top: 0;
 
 
     }
 
     img.left-sobremim {
-        width: 450px;
+        width: 400px;
 
         /* Defina o tamanho desejado para a imagem */
 
-        margin: -50px -10px;
+        margin: -40px -30px;
     }
 
     .section-heading {
@@ -1653,7 +1654,9 @@ p.contact-text a:hover {
         margin: 0;
 
     }
-
+    .section-heading .page-title{
+        margin-top: 100px;
+    }
     .hero_area-contatos {
         position: relative;
         min-height: 120%;
@@ -1666,7 +1669,7 @@ p.contact-text a:hover {
         position: absolute;
         top: 0;
         left: 0;
-        width: 120%;
+        width: 150%;
         height: 100%;
         /* Ajusta a altura para ocupar toda a altura da seção */
         z-index: -1;
@@ -1705,8 +1708,9 @@ p.contact-text a:hover {
 
     }
 
-    .section-heading {
-        margin-top: 130px;
+    .section-heading #sobre {
+       margin-top: 180px;
+       margin-left: -20px;
 
     }
 
@@ -1718,7 +1722,7 @@ p.contact-text a:hover {
 
     /* ------------------------Minha Habilidade ---------------------*/
     p.mb-2-skill-description {
-        width: 450px;
+        width: 300px;
         margin-left: 0;
         font-size: 20px;
         color: black;
@@ -1727,11 +1731,11 @@ p.contact-text a:hover {
 
     img.left-skill {
 
-        width: 500px;
+        width: 400px;
 
         /* Defina o tamanho desejado para a imagem */
 
-        margin: -50px -20px;
+        margin: -30px -30px;
 
     }
 
@@ -1752,19 +1756,21 @@ p.contact-text a:hover {
     }
 
     .title-skill h2 {
-        margin-left: -65px;
+        margin-left: 0;
     }
 
     .contatos-heading h2 {
-        font-size: 25px;
+        font-size: 20px;
         color: white;
-        margin: 20px -120px;
+        margin:  40px -10px;
+        font-weight: bolder;
+
 
     }
 
     p.contact-text {
         color: white;
-        font-size: 25px;
+        font-size: 20px;
         font-weight: bolder;
 
     }
