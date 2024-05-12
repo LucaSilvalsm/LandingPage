@@ -66,9 +66,11 @@ p {
 #Project {
     margin-bottom: 30px;
 }
+
 .section-container a {
     color: blue;
 }
+
 /*------------------------------------------------------------------------------------------- Section Project -------------------------------------------------------------------- */
 .hero_area {
     position: relative;
@@ -444,6 +446,7 @@ p.contact-text a:hover {
         width: 100%;
         height: 100%;
     }
+
     section.site-section p {
         margin-left: auto;
         /* Adiciona uma margem à esquerda para mover a seção para a direita */
@@ -624,39 +627,54 @@ p.contact-text a:hover {
 
     .skill-content {
         min-width: 100%;
-        width: auto; /* Usar 'auto' para que o conteúdo se ajuste dinamicamente */
-        display: flex; /* Para alinhar os itens horizontalmente */
-        justify-content: space-between; /* Distribui os itens igualmente ao longo do eixo principal */
-        align-items: center; /* Centraliza verticalmente os itens */
-        padding: 20px; /* Adiciona algum espaçamento interno */
+        width: auto;
+        /* Usar 'auto' para que o conteúdo se ajuste dinamicamente */
+        display: flex;
+        /* Para alinhar os itens horizontalmente */
+        justify-content: space-between;
+        /* Distribui os itens igualmente ao longo do eixo principal */
+        align-items: center;
+        /* Centraliza verticalmente os itens */
+        padding: 20px;
+        /* Adiciona algum espaçamento interno */
     }
-    
+
     .skill-img-left {
-        flex: 0 0 auto; /* Para evitar que a imagem se estenda */
-        width: 30%; /* Defina a largura em uma unidade relativa */
-        max-width: 300px; /* Define a largura máxima da imagem */
-        margin-right: 20px; /* Espaçamento entre a imagem e o texto */
+        flex: 0 0 auto;
+        /* Para evitar que a imagem se estenda */
+        width: 30%;
+        /* Defina a largura em uma unidade relativa */
+        max-width: 300px;
+        /* Define a largura máxima da imagem */
+        margin-right: 20px;
+        /* Espaçamento entre a imagem e o texto */
     }
-    
+
     .skill-img-left img {
-        width: 100%; /* Ajusta a largura da imagem para ocupar todo o espaço disponível */
-        height: auto; /* Altura da imagem ajustável */
-        border-radius: 10px; /* Adiciona bordas arredondadas à imagem */
+        width: 100%;
+        /* Ajusta a largura da imagem para ocupar todo o espaço disponível */
+        height: auto;
+        /* Altura da imagem ajustável */
+        border-radius: 10px;
+        /* Adiciona bordas arredondadas à imagem */
     }
+
     .skill-text-right {
         flex: 8;
         /* O texto deve ocupar o restante do espaço disponível */
     }
+
     p.skill-text {
         font-size: 14px;
-    
-    
+
+
     }
+
     .contatos-heading h2 {
         font-size: 25px;
         color: white;
-        margin: 20px  -120px;
-        
+        margin: 20px -120px;
+
     }
 
     p.contact-text {
@@ -665,221 +683,25 @@ p.contact-text a:hover {
         font-weight: bolder;
 
     }
-    
-  
-   
+
+
+
 }
 
 @media (max-width: 850px) {
     /* Aqui você pode adicionar regras CSS específicas para telas menores que 1250px */
 
-  /* Aqui você pode adicionar regras CSS específicas para telas menores que 1000px */
-  .hero_area {
-    position: relative;
-    min-height: 120%;
-
-    min-width: 120%;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
-
-.hero_bg_box {
-    position: absolute;
-    top: 0;
-    left: 100;
-    width: 120%;
-    height: 120%;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    overflow: hidden;
-    z-index: -1;
-}
-
-.bg_img_box {
-    min-width: 100%;
-    min-height: 100%;
-}
-
-.bg_img_box img {
-    min-width: 100%;
-    min-height: 100%;
-}
-
-img.left {
-    width: 600px;
-
-    /* Defina o tamanho desejado para a imagem */
-    margin-bottom: -120px;
-    margin-left: -120px;
-}
-
-.page-title {
-    margin-top: -10px;
-    text-align: center;
-    margin-left: 120px;
-}
-
-/* Sobre mim */
-.hero_area-sobremim {
-    position: relative;
-    min-height: 120%;
-    min-width: 120%;
-    display: flex;
-    flex-direction: column;
-}
-
-.bg_img_box-sobremim {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 120%;
-    height: 100%;
-    /* Ajusta a altura para ocupar toda a altura da seção */
-    z-index: -1;
-}
-
-section.section-heading,
-h2 {
-    width: 600px;
-    text-align: center;
-    font-size: 20px;
-}
-
-section.section-heading,
-.mb-2 {
-    width: 550px;
-    font-size: 20px;
-    text-align: center;
-
-}
-
-.section-heading {
-
-    margin: 0 auto 0;
-    text-align: center;
-    margin: 0;
-
-}
-
-.hero_area-contatos {
-    position: relative;
-    min-height: 120%;
-    min-width: 120%;
-    display: flex;
-    flex-direction: column;
-}
-
-.bg_img_box-contatos {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 120%;
-    height: 100%;
-    /* Ajusta a altura para ocupar toda a altura da seção */
-    z-index: -1;
-}
-
-/* --------------------- CARDS --------------------*/
-.single-portfolio {
-    flex-basis: 100%;
-    /* Define a largura do card para ocupar toda a largura disponível */
-    max-width: 100%;
-    /* Define a largura máxima para garantir que o card não ultrapasse a largura máxima do contêiner pai */
-}
-
-.contatos-heading h2 {
-    font-size: 20px;
-    color: white;
-    margin: 80px 0 20px 0;
-}
-
-p.contact-text {
-    color: white;
-    font-size: 15px;
-    font-weight: bolder;
-
-}
-
-.project-section {
-    /*para mexer nos Titulo projeto*/
-    margin-top: 150px;
-
-}
-
-.section-heading {
-    margin-top: 130px;
-
-}
-
-img.contato-left {
-    margin-top: 110px;
-    width: 500px;
-    margin-bottom: -100px;
-}
-
-/* ------------------------Minha Habilidade ---------------------*/
-p.mb-2-skill-description {
-    width: 700px;
-    margin-left: -100px;
-    font-size: 20px;
-    color: black;
-    margin-bottom: 50px;
-}
-
-img.left-skill {
-    margin: -100px;
-}
-
-img.left-sobremim {
-    margin: -100px;
-}
-
-div.section-skill {
-    margin-left: -20px;
-}
-
-
-.skill-text-right {
-    flex: 8;
-    /* O texto deve ocupar o restante do espaço disponível */
-}
-p.skill-text {
-    font-size: 15px;
-
-
-}
-.contatos-heading h2 {
-    font-size: 25px;
-    color: white;
-    margin: 20px  -120px;
-    
-}
-
-p.contact-text {
-    color: white;
-    font-size: 25px;
-    font-weight: bolder;
-
-}
-
-
-
-}
-@media (max-width: 770px) {
-    /* Aqui você pode adicionar regras CSS específicas para telas menores que 1250px */
-
+    /* Aqui você pode adicionar regras CSS específicas para telas menores que 1000px */
     .hero_area {
         position: relative;
         min-height: 120%;
-    
+
         min-width: 120%;
         display: flex;
         flex-direction: column;
         text-align: center;
     }
-    
+
     .hero_bg_box {
         position: absolute;
         top: 0;
@@ -892,31 +714,31 @@ p.contact-text {
         overflow: hidden;
         z-index: -1;
     }
-    
+
     .bg_img_box {
         min-width: 100%;
         min-height: 100%;
     }
-    
+
     .bg_img_box img {
         min-width: 100%;
         min-height: 100%;
     }
-    
+
     img.left {
-        width: 450px;
-    
+        width: 600px;
+
         /* Defina o tamanho desejado para a imagem */
         margin-bottom: -120px;
         margin-left: -120px;
     }
-    
+
     .page-title {
         margin-top: -10px;
         text-align: center;
-        margin-left: 40px;
+        margin-left: 120px;
     }
-    
+
     /* Sobre mim */
     .hero_area-sobremim {
         position: relative;
@@ -925,7 +747,7 @@ p.contact-text {
         display: flex;
         flex-direction: column;
     }
-    
+
     .bg_img_box-sobremim {
         position: absolute;
         top: 0;
@@ -935,33 +757,30 @@ p.contact-text {
         /* Ajusta a altura para ocupar toda a altura da seção */
         z-index: -1;
     }
-    
+
     section.section-heading,
     h2 {
-        width: 500px;
+        width: 600px;
         text-align: center;
         font-size: 20px;
     }
-    .section-heading h2.mb-2{
-        margin-left: -80px;
-    }
-    section p.mb-2 {
-        width: 490px;
+
+    section.section-heading,
+    .mb-2 {
+        width: 550px;
         font-size: 20px;
         text-align: center;
-        margin-left: -60px;
-        
-    
+
     }
-    
+
     .section-heading {
-    
+
         margin: 0 auto 0;
         text-align: center;
         margin: 0;
-    
+
     }
-    
+
     .hero_area-contatos {
         position: relative;
         min-height: 120%;
@@ -969,7 +788,7 @@ p.contact-text {
         display: flex;
         flex-direction: column;
     }
-    
+
     .bg_img_box-contatos {
         position: absolute;
         top: 0;
@@ -978,14 +797,8 @@ p.contact-text {
         height: 100%;
         /* Ajusta a altura para ocupar toda a altura da seção */
         z-index: -1;
-    
-    
+    }
 
-    }    
-
-        
-    
-    
     /* --------------------- CARDS --------------------*/
     .single-portfolio {
         flex-basis: 100%;
@@ -993,37 +806,247 @@ p.contact-text {
         max-width: 100%;
         /* Define a largura máxima para garantir que o card não ultrapasse a largura máxima do contêiner pai */
     }
-    
+
     .contatos-heading h2 {
         font-size: 20px;
         color: white;
         margin: 80px 0 20px 0;
     }
-    
+
     p.contact-text {
         color: white;
         font-size: 15px;
         font-weight: bolder;
-    
+
     }
-    
+
     .project-section {
         /*para mexer nos Titulo projeto*/
         margin-top: 150px;
-    
+
     }
-    
+
+    .section-heading {
+        margin-top: 130px;
+
+    }
+
+    img.contato-left {
+        margin-top: 110px;
+        width: 500px;
+        margin-bottom: -100px;
+    }
+
+    /* ------------------------Minha Habilidade ---------------------*/
+    p.mb-2-skill-description {
+        width: 700px;
+        margin-left: -100px;
+        font-size: 20px;
+        color: black;
+        margin-bottom: 50px;
+    }
+
+    img.left-skill {
+        margin: -100px;
+    }
+
+    img.left-sobremim {
+        margin: -100px;
+    }
+
+    div.section-skill {
+        margin-left: -20px;
+    }
+
+
+    .skill-text-right {
+        flex: 8;
+        /* O texto deve ocupar o restante do espaço disponível */
+    }
+
+    p.skill-text {
+        font-size: 15px;
+
+
+    }
+
+    .contatos-heading h2 {
+        font-size: 25px;
+        color: white;
+        margin: 20px -120px;
+
+    }
+
+    p.contact-text {
+        color: white;
+        font-size: 25px;
+        font-weight: bolder;
+
+    }
+
+
+
+}
+
+@media (max-width: 770px) {
+    /* Aqui você pode adicionar regras CSS específicas para telas menores que 1250px */
+
+    .hero_area {
+        position: relative;
+        min-height: 120%;
+
+        min-width: 120%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero_bg_box {
+        position: absolute;
+        top: 0;
+        left: 100;
+        width: 120%;
+        height: 120%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        overflow: hidden;
+        z-index: -1;
+    }
+
+    .bg_img_box {
+        min-width: 100%;
+        min-height: 100%;
+    }
+
+    .bg_img_box img {
+        min-width: 100%;
+        min-height: 100%;
+    }
+
+    img.left {
+        width: 450px;
+
+        /* Defina o tamanho desejado para a imagem */
+        margin-bottom: -120px;
+        margin-left: -120px;
+    }
+
+    .page-title {
+        margin-top: -10px;
+        text-align: center;
+        margin-left: 40px;
+    }
+
+    /* Sobre mim */
+    .hero_area-sobremim {
+        position: relative;
+        min-height: 120%;
+        min-width: 120%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bg_img_box-sobremim {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 120%;
+        height: 100%;
+        /* Ajusta a altura para ocupar toda a altura da seção */
+        z-index: -1;
+    }
+
+    section.section-heading,
+    h2 {
+        width: 500px;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .section-heading h2.mb-2 {
+        margin-left: -80px;
+    }
+
+    section p.mb-2 {
+        width: 490px;
+        font-size: 20px;
+        text-align: center;
+        margin-left: -60px;
+
+
+    }
+
+    .section-heading {
+
+        margin: 0 auto 0;
+        text-align: center;
+        margin: 0;
+
+    }
+
+    .hero_area-contatos {
+        position: relative;
+        min-height: 120%;
+        min-width: 120%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bg_img_box-contatos {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 120%;
+        height: 100%;
+        /* Ajusta a altura para ocupar toda a altura da seção */
+        z-index: -1;
+
+
+
+    }
+
+
+
+
+    /* --------------------- CARDS --------------------*/
+    .single-portfolio {
+        flex-basis: 100%;
+        /* Define a largura do card para ocupar toda a largura disponível */
+        max-width: 100%;
+        /* Define a largura máxima para garantir que o card não ultrapasse a largura máxima do contêiner pai */
+    }
+
+    .contatos-heading h2 {
+        font-size: 20px;
+        color: white;
+        margin: 80px 0 20px 0;
+    }
+
+    p.contact-text {
+        color: white;
+        font-size: 15px;
+        font-weight: bolder;
+
+    }
+
+    .project-section {
+        /*para mexer nos Titulo projeto*/
+        margin-top: 150px;
+
+    }
+
     .section-heading {
         margin-top: 180px;
-    
+
     }
-    
+
     img.contato-left {
         margin-top: 110px;
         width: 300px;
         margin-bottom: -100px;
     }
-    
+
     /* ------------------------Minha Habilidade ---------------------*/
     p.mb-2-skill-description {
         width: 500px;
@@ -1032,37 +1055,40 @@ p.contact-text {
         color: black;
         margin-bottom: 50px;
     }
-    
+
     img.left-skill {
         margin: -80px;
     }
-    
+
     img.left-sobremim {
         margin: -50px;
     }
-    
+
     div.section-skill {
         margin-left: -20px;
     }
-    
-    
+
+
     .skill-text-right {
         flex: 8;
         /* O texto deve ocupar o restante do espaço disponível */
     }
+
     p.skill-text {
-        font-size: 15px;   
-    
+        font-size: 15px;
+
     }
-    .title-skill h2{
+
+    .title-skill h2 {
         margin-left: -80px;
     }
+
     .contatos-heading h2 {
         font-size: 25px;
         color: white;
-        margin: 30px -10 ;
+        margin: 30px -10;
         margin-left: -120px;
-        
+
     }
 
     p.contact-text {
@@ -1071,21 +1097,22 @@ p.contact-text {
         font-weight: bolder;
 
     }
-    
-}  
+
+}
+
 @media (max-width: 580px) {
     /* Aqui você pode adicionar regras CSS específicas para telas menores que 1250px */
 
     .hero_area {
         position: relative;
         min-height: 120%;
-    
+
         min-width: 120%;
         display: flex;
         flex-direction: column;
         text-align: center;
     }
-    
+
     .hero_bg_box {
         position: absolute;
         top: 0;
@@ -1098,31 +1125,31 @@ p.contact-text {
         overflow: hidden;
         z-index: -1;
     }
-    
+
     .bg_img_box {
         min-width: 100%;
         min-height: 100%;
     }
-    
+
     .bg_img_box img {
         min-width: 100%;
         min-height: 100%;
     }
-    
+
     img.left {
         width: 450px;
-    
+
         /* Defina o tamanho desejado para a imagem */
         margin-bottom: -120px;
         margin-left: -120px;
     }
-    
+
     .page-title {
         margin-top: -10px;
         text-align: center;
         margin-left: 120px;
     }
-    
+
     /* Sobre mim */
     .hero_area-sobremim {
         position: relative;
@@ -1131,7 +1158,7 @@ p.contact-text {
         display: flex;
         flex-direction: column;
     }
-    
+
     .bg_img_box-sobremim {
         position: absolute;
         top: 0;
@@ -1141,33 +1168,35 @@ p.contact-text {
         /* Ajusta a altura para ocupar toda a altura da seção */
         z-index: -1;
     }
-    
+
     section.section-heading,
     h2 {
         width: 500px;
         text-align: center;
         font-size: 20px;
     }
-    .section-heading h2.mb-2{
+
+    .section-heading h2.mb-2 {
         margin-left: -80px;
     }
+
     section p.mb-2 {
         width: 490px;
         font-size: 20px;
         text-align: center;
         margin-left: -60px;
-        
-    
+
+
     }
-    
+
     .section-heading {
-    
+
         margin: 0 auto 0;
         text-align: center;
         margin: 0;
-    
+
     }
-    
+
     .hero_area-contatos {
         position: relative;
         min-height: 120%;
@@ -1175,7 +1204,7 @@ p.contact-text {
         display: flex;
         flex-direction: column;
     }
-    
+
     .bg_img_box-contatos {
         position: absolute;
         top: 0;
@@ -1184,14 +1213,14 @@ p.contact-text {
         height: 100%;
         /* Ajusta a altura para ocupar toda a altura da seção */
         z-index: -1;
-    
-    
 
-    }    
 
-        
-    
-    
+
+    }
+
+
+
+
     /* --------------------- CARDS --------------------*/
     .single-portfolio {
         flex-basis: 100%;
@@ -1199,37 +1228,37 @@ p.contact-text {
         max-width: 100%;
         /* Define a largura máxima para garantir que o card não ultrapasse a largura máxima do contêiner pai */
     }
-    
+
     .contatos-heading h2 {
         font-size: 20px;
         color: white;
         margin: 80px 0 20px 0;
     }
-    
+
     p.contact-text {
         color: white;
         font-size: 15px;
         font-weight: bolder;
-    
+
     }
-    
+
     .project-section {
         /*para mexer nos Titulo projeto*/
         margin-top: 150px;
-    
+
     }
-    
+
     .section-heading {
         margin-top: 130px;
-    
+
     }
-    
+
     img.contato-left {
         margin-top: 110px;
         width: 300px;
         margin-bottom: -100px;
     }
-    
+
     /* ------------------------Minha Habilidade ---------------------*/
     p.mb-2-skill-description {
         width: 600px;
@@ -1238,36 +1267,39 @@ p.contact-text {
         color: black;
         margin-bottom: 50px;
     }
-    
+
     img.left-skill {
         margin: -80px;
     }
-    
+
     img.left-sobremim {
         margin: -50px;
     }
-    
+
     div.section-skill {
         margin-left: -20px;
     }
-    
-    
+
+
     .skill-text-right {
         flex: 8;
         /* O texto deve ocupar o restante do espaço disponível */
     }
+
     p.skill-text {
-        font-size: 15px;   
-    
+        font-size: 15px;
+
     }
-    .title-skill h2{
+
+    .title-skill h2 {
         margin-left: -80px;
     }
+
     .contatos-heading h2 {
         font-size: 25px;
         color: white;
-        margin: 20px  -120px;
-        
+        margin: 20px -120px;
+
     }
 
     p.contact-text {
@@ -1276,7 +1308,465 @@ p.contact-text {
         font-weight: bolder;
 
     }
-    
-}  
+
+}
+
+@media (max-width: 500px) {
+    /* Aqui você pode adicionar regras CSS específicas para telas menores que 1250px */
+
+    .hero_area {
+        position: relative;
+        min-height: 120%;
+
+        min-width: 120%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero_bg_box {
+        position: absolute;
+        top: 0;
+        left: 100;
+        width: 120%;
+        height: 120%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        overflow: hidden;
+        z-index: -1;
+    }
+
+    .bg_img_box {
+        min-width: 100%;
+        min-height: 100%;
+    }
+
+    .bg_img_box img {
+        min-width: 100%;
+        min-height: 100%;
+    }
+
+    img.left {
+        width: 300px;
+
+        /* Defina o tamanho desejado para a imagem */
+        margin-bottom: -120px;
+        margin-left: -120px;
+    }
+
+    .page-title {
+        margin-top: -10px;
+        text-align: center;
+        margin-left: 120px;
+    }
+
+    /* Sobre mim */
+    .hero_area-sobremim {
+        position: relative;
+        min-height: 120%;
+        min-width: 120%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bg_img_box-sobremim {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 120%;
+        height: 100%;
+        /* Ajusta a altura para ocupar toda a altura da seção */
+        z-index: -1;
+    }
+
+    section.section-heading,
+    h2 {
+        width: 400px;
+        text-align: center;
+
+    }
+
+    .section-heading h2.page-title {
+        margin-left: 0;
+        font-size: 18px;
+
+    }
+
+    section h2#Project {
+        width: 250px;
+        margin-left: 80px;
+    }
+
+    section p.mb-2 {
+        width: 400px;
+        font-size: 18px;
+        text-align: center;
+        margin-left: 0;
+        margin-top: 0px;
 
 
+    }
+
+    img.left-sobremim {
+        width: 450px;
+
+        /* Defina o tamanho desejado para a imagem */
+
+        margin: -50px -10px;
+    }
+
+    .section-heading {
+
+        margin: 0 auto 0;
+        text-align: center;
+        margin: 0;
+
+    }
+
+    .hero_area-contatos {
+        position: relative;
+        min-height: 120%;
+        min-width: 120%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bg_img_box-contatos {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 120%;
+        height: 100%;
+        /* Ajusta a altura para ocupar toda a altura da seção */
+        z-index: -1;
+
+
+
+    }
+
+
+
+
+    /* --------------------- CARDS --------------------*/
+    .single-portfolio {
+        flex-basis: 100%;
+        /* Define a largura do card para ocupar toda a largura disponível */
+        max-width: 100%;
+        /* Define a largura máxima para garantir que o card não ultrapasse a largura máxima do contêiner pai */
+    }
+
+    .contatos-heading h2 {
+        font-size: 20px;
+        color: white;
+        margin: 80px 0 20px 0;
+    }
+
+    p.contact-text {
+        color: white;
+        font-size: 15px;
+        font-weight: bolder;
+
+    }
+
+    .project-section {
+        /*para mexer nos Titulo projeto*/
+        margin-top: 150px;
+
+    }
+
+    .section-heading {
+        margin-top: 130px;
+
+    }
+
+    img.contato-left {
+        margin-top: 110px;
+        width: 300px;
+        margin-bottom: -100px;
+    }
+
+    /* ------------------------Minha Habilidade ---------------------*/
+    p.mb-2-skill-description {
+        width: 450px;
+        margin-left: 0;
+        font-size: 20px;
+        color: black;
+        margin-bottom: 50px;
+    }
+
+    img.left-skill {
+
+        width: 500px;
+
+        /* Defina o tamanho desejado para a imagem */
+
+        margin: -50px -20px;
+
+    }
+
+
+    div.section-skill {
+        margin-left: -20px;
+    }
+
+
+    .skill-text-right {
+        flex: 8;
+        /* O texto deve ocupar o restante do espaço disponível */
+    }
+
+    p.skill-text {
+        font-size: 15px;
+
+    }
+
+    .title-skill h2 {
+        margin-left: -65px;
+    }
+
+    .contatos-heading h2 {
+        font-size: 25px;
+        color: white;
+        margin: 20px -120px;
+
+    }
+
+    p.contact-text {
+        color: white;
+        font-size: 25px;
+        font-weight: bolder;
+
+    }
+
+}
+
+@media (max-width: 360px) {
+    /* Aqui você pode adicionar regras CSS específicas para telas menores que 1250px */
+
+    .hero_area {
+        position: relative;
+        min-height: 120%;
+
+        min-width: 120%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero_bg_box {
+        position: absolute;
+        top: 0;
+        left: 100;
+        width: 120%;
+        height: 120%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        overflow: hidden;
+        z-index: -1;
+    }
+
+    .bg_img_box {
+        min-width: 100%;
+        min-height: 100%;
+    }
+
+    .bg_img_box img {
+        min-width: 100%;
+        min-height: 100%;
+    }
+
+    img.left {
+        width: 300px;
+
+        /* Defina o tamanho desejado para a imagem */
+        margin-bottom: -120px;
+        margin-left: -120px;
+    }
+
+    .page-title {
+        margin-top: -10px;
+        text-align: center;
+        margin-left: 120px;
+    }
+
+    /* Sobre mim */
+    .hero_area-sobremim {
+        position: relative;
+        min-height: 120%;
+        min-width: 120%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bg_img_box-sobremim {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 120%;
+        height: 100%;
+        /* Ajusta a altura para ocupar toda a altura da seção */
+        z-index: -1;
+    }
+
+    section.section-heading,
+    h2 {
+        width: 400px;
+        text-align: center;
+
+    }
+
+    .section-heading h2.page-title {
+        margin-left: 0;
+        font-size: 18px;
+
+    }
+
+    section h2#Project {
+        width: 250px;
+        margin-left: 80px;
+    }
+
+    section p.mb-2 {
+        width: 400px;
+        font-size: 18px;
+        text-align: center;
+        margin-left: 0;
+        margin-top: 0px;
+
+
+    }
+
+    img.left-sobremim {
+        width: 450px;
+
+        /* Defina o tamanho desejado para a imagem */
+
+        margin: -50px -10px;
+    }
+
+    .section-heading {
+
+        margin: 0 auto 0;
+        text-align: center;
+        margin: 0;
+
+    }
+
+    .hero_area-contatos {
+        position: relative;
+        min-height: 120%;
+        min-width: 120%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bg_img_box-contatos {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 120%;
+        height: 100%;
+        /* Ajusta a altura para ocupar toda a altura da seção */
+        z-index: -1;
+
+
+
+    }
+
+
+
+
+    /* --------------------- CARDS --------------------*/
+    .single-portfolio {
+        flex-basis: 100%;
+        /* Define a largura do card para ocupar toda a largura disponível */
+        max-width: 100%;
+        /* Define a largura máxima para garantir que o card não ultrapasse a largura máxima do contêiner pai */
+    }
+
+    .contatos-heading h2 {
+        font-size: 20px;
+        color: white;
+        margin: 80px 0 20px 0;
+    }
+
+    p.contact-text {
+        color: white;
+        font-size: 15px;
+        font-weight: bolder;
+
+    }
+
+    .project-section {
+        /*para mexer nos Titulo projeto*/
+        margin-top: 150px;
+
+    }
+
+    .section-heading {
+        margin-top: 130px;
+
+    }
+
+    img.contato-left {
+        margin-top: 110px;
+        width: 300px;
+        margin-bottom: -100px;
+    }
+
+    /* ------------------------Minha Habilidade ---------------------*/
+    p.mb-2-skill-description {
+        width: 450px;
+        margin-left: 0;
+        font-size: 20px;
+        color: black;
+        margin-bottom: 50px;
+    }
+
+    img.left-skill {
+
+        width: 500px;
+
+        /* Defina o tamanho desejado para a imagem */
+
+        margin: -50px -20px;
+
+    }
+
+
+    div.section-skill {
+        margin-left: -20px;
+    }
+
+
+    .skill-text-right {
+        flex: 8;
+        /* O texto deve ocupar o restante do espaço disponível */
+    }
+
+    p.skill-text {
+        font-size: 15px;
+
+    }
+
+    .title-skill h2 {
+        margin-left: -65px;
+    }
+
+    .contatos-heading h2 {
+        font-size: 25px;
+        color: white;
+        margin: 20px -120px;
+
+    }
+
+    p.contact-text {
+        color: white;
+        font-size: 25px;
+        font-weight: bolder;
+
+    }
+
+}
