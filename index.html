@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.css"
+        integrity="sha512-drnvWxqfgcU6sLzAJttJv7LKdjWn0nxWCSbEAtxJ/YYaZMyoNLovG7lPqZRdhgL1gAUfa+V7tbin8y+2llC1cw=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.css"
+        integrity="sha512-drnvWxqfgcU6sLzAJttJv7LKdjWn0nxWCSbEAtxJ/YYaZMyoNLovG7lPqZRdhgL1gAUfa+V7tbin8y+2llC1cw=="
+        crossorigin="anonymous" />
+
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- or -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+    <!-- CSS do projeto -->
+
+    <title>Landing Page</title>
+</head>
+
+<body>
+    <div class="hero_area">
+        <div class="hero_bg_box">
+            <img src="hero-bg.png" alt="Hero Background" class="bg_img_box">
+        </div>
+        <header>
+            <nav id="main-navbar" class="navbar navbar-expand-lg">
+                <div class="collapse navbar-collapse" id="navbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#Project" class="nav-link">MEUS PROJETO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#sobreMim-project" class="nav-link">SOBRE MIM </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#MinhasSkills" class="nav-link">MINHAS SKILL</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">CONTATO</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <section class="site-section" id="section-project">
+            <div class="container">
+                <div class="row mb-4 align-items-center">
+                    <div class="col-lg-6 pr-lg-5 mb-5 mb-lg-0">
+                        <img src="img/devs.png" alt="Imagem de fundo" class="img-fluid left">
+                    </div>
+                    <div class="col-md-6 pl-md-12">
+                        <div class="section-heading">
+                            <h2 class="page-t">Olá, Me chamo Lucas Moreira</h2>
+                        </div>
+                        <p class="mb-2">Sou estudante de Sistemas da Informação na Universidade Veiga de Almeida</p>
+                        <p class="mb-2">Meu nome é Lucas da Silva Moreira e, atualmente, estou dando meus primeiros
+                            passos no campo da tecnologia. Estou entusiasmado em me candidatar à vaga de estágio,
+                            buscando uma oportunidade para crescer como desenvolvedor, tanto na área web quanto no
+                            back-end. Possuo conhecimento em linguagens como PHP e JavaScript, além de habilidades em
+                            HTML e CSS. Além disso, estou em constante aprimoramento, estudando Node.JS e PHP Laravel
+                            para expandir minha expertise e contribuir de forma cada vez mais significativa. Agradeço
+                            pela consideração e estou ansioso para a possibilidade de contribuir positivamente com minha
+                            energia e comprometimento</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <section class="project-section">
+        <h2 class="page-title" id="Project">Meus Projetos</h2>
+        <div class="container">
+            <div class="row grid">
+                <div class="single-portfolio col-lg-6 col-md-6 mb-4 mockup">
+                    <div class="section-container">
+                        <div class="card img-card">
+                            <div class="card-img-top" style="background-image: url('img/image.png')"></div>
+                            <div class="card-body d-flex flex-column justify-content-between">
+                                <p class="section-description">Projeto Full Stack de Hamburgueria</p>
+                                <a href="https://github.com/LucaSilvalsm/OlimpicoBurguer"> 
+                                    <h5 class="card-title">Olimpico Burguers</h5>
+                                </a>
+                                <p class="card-text">Descrição: Um projeto full stack mais voltado ao back end
+                                    utilizando o PHP, nele o é realizado todas as operações de um CRUD, aonde é
+                                    possivel ver varias funções no site, como adicionar no carrinho,criar pedido e
+                                    ver status do pedido </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Repita o mesmo padrão para os outros projetos -->
+                <div class="single-portfolio col-lg-6 col-md-6 mb-4 mockup">
+                    <!-- Conteúdo do segundo projeto -->
+                    <div class="section-container">
+                        <div class="card img-card">
+                            <div class="card-img-top" style="background-image: url('img/movie.png')"></div>
+                            <div class="card-body d-flex flex-column justify-content-between">
+                                <p class="section-description">Projeto Full Stack de Site de catalogo de Filmes</p>
+                                <a href="https://github.com/LucaSilvalsm/ProjetoFilme">
+                                    <h5 class="card-title">MovieStar</h5>
+                                </a>
+                                <p class="card-text">Descrição: Um projeto full stack utlizando HTML/CSS/Bootstrap e
+                                    PHP, nele o é realizado todas as operações de um CRUD, aonde é possivel ver
+                                    varias funções no site, como adicionar no site como comentar sobre um filme, dar
+                                    uma nota a ele </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="single-portfolio col-lg-6 col-md-6 mb-4 mockup">
+                    <!-- Conteúdo do terceiro projeto -->
+                    <div class="section-container">
+                        <div class="card img-card">
+                            <div class="card-img-cal" style="background-image: url('img/calculadora.png')"></div>
+                            <div class="card-body d-flex flex-column justify-content-between">
+                                <p class="section-description">Projeto de uma Calculadora Javascript</p>
+
+                                <a href="https://lucasilvalsm.github.io/Calculadora/">
+                                    <h5 class="card-title">Calculadora Javascript</h5>
+
+                                </a>
+                                <p class="card-text">Descrição: Um projeto feito para testar o conhecimento do
+                                    javascript, nesse projeto a ideia é fazer uma calculadora que soma os valores ou
+                                    que consiga realizar qualquer operação matematica</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="single-portfolio col-lg-6 col-md-6 mb-4 mockup">
+                    <!-- Conteúdo do quarto projeto -->
+                    <div class="section-container">
+                        <div class="card img-card">
+                            <div class="card-img-top" style="background-image: url('img/curriculo.png')"></div>
+                            <div class="card-body d-flex flex-column justify-content-between">
+                                <p class="section-description">Projeto de um Curriculo Javascript</p>
+
+                                <a href="https://lucasilvalsm.github.io/Curriculo/">
+                                    <h5 class="card-title">Curriculo JavaScript</h5>
+                                </a>
+                                <p class="card-text">Descrição: Um projeto feito para testar o conhecimento do
+                                    javascript, nesse projeto a ideia é fazer uma calculadora que soma os valores ou
+                                    que consiga realizar qualquer operação matematica</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="hero_area-sobremim">
+        <section class="sobreMim-section" id="sobreMim-project">
+            <img src="virada.png" alt="Hero Background" class="bg_img_box-sobremim">
+            <div class="container sobreMim-container">
+                <div class="row mb-4 align-items-center">
+                    <div class="col-md-6 pl-md-12">
+                        <div class="section-heading">
+                            <h2>Sobre Mim </h2>
+                        </div>
+                        <p class="mb-2">
+                            Meu nome é Lucas da Silva Moreira, e sou uma pessoa dedicada que busca constantemente
+                            aprender em novas áreas. Tenho grande entusiasmo em colocar em prática tudo o que
+                            aprendo e sou comprometido com todas as atividades que realizo. Atualmente, estou
+                            concentrado nos estudos de PHP, JavaScript e Node.js, com o objetivo de aprofundar meu
+                            conhecimento na área de desenvolvimento backend. Sinto-me altamente motivado a trabalhar
+                            nesse campo, que considero fundamental para meu futuro na área de cibersegurança.
+
+                            Além disso, a comunicação é uma das minhas características marcantes. Procuro sempre me
+                            envolver ativamente em meu trabalho e mantenho uma abordagem proativa em relação às
+                            minhas responsabilidades, garantindo a entrega de serviços de alta qualidade. Estou
+                            constantemente em busca de conhecimento, pois acredito que quanto mais dedicado estiver
+                            na área, mais afiado será meu raciocínio para enfrentar tarefas e desafios.
+
+                            Tenho afinidade com o trabalho em equipe e desfruto da oportunidade de auxiliar meus
+                            colegas quando enfrentam dificuldades. Acredito que ao resolvermos problemas juntos,
+                            podemos acelerar o progresso e aprimorar a qualidade do serviço. Valorizo também a troca
+                            de experiências profissionais como uma forma de enriquecer o aprendizado coletivo.
+                        </p>
+                    </div>
+                    <div class="col-lg-6 pr-lg-5 mb-5 mb-lg-0">
+                        <img src="img/Devices-amico.png" alt="Imagem de fundo" class="img-fluid left-sobremim">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    </div>
+    <div class="minhaskill">
+        <div class="hero_area-sobremim">
+            <section class="sobreMim-section" id="sobreMim-project">
+
+                <div class="container sobreMim-container">
+                    <div class="row mb-4 align-items-center">
+                        <div class="col-lg-6 pr-lg-5 mb-5 mb-lg-0">
+                            <img src="img/Devices-amico.png" alt="Imagem de fundo" class="img-fluid left-skill">
+                        </div>
+                        <div class="col-md-6 pl-md-12">
+                            <div class="title-skill">
+                                <h2>Minhas Habilidade </h2>
+
+                            </div>
+                            <p class="mb-2-skill-description">
+                                Tenho um bom entendimento dos conceitos fundamentais do HTML, CSS e JavaScript. No HTML,
+                                incluo marcação semântica, uso adequado de tags e elementos avançados como formulários e
+                                tabelas. Em CSS, demonstro competência na aplicação de seletores e propriedades, criando
+                                layouts visualmente atraentes. Quanto ao JavaScript, possuo habilidades intermediárias
+                                na manipulação de objetos, controle de fluxo e interação com formulários e o DOM. Além
+                                disso, no PHP, tenho conhecimento sólido no backend, com capacidade de manipulação de
+                                classes, métodos e interação com bancos de dados, desenvolvendo aplicações completas com
+                                funcionalidades como autenticação de usuários e validação de formulários.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+        </div>
+        </section>
+    </div>
+
+    <div class="container sobreMim-container" id="MinhasSkills">
+
+        <div class="row mb-4 align-items-center">
+            <!-- Card 1 -->
+            <div class="col-lg-6 col-md-6 mb-4">
+
+                <div class="skill-card">
+                    <div class="skill-content">
+                        <div class="skill-img-left">
+                            <img src="img/html.png" class="logo" alt="">
+                        </div>
+                        <div class="skill-text-right">
+                            <p class="title-skill">HTML</p>
+
+                            <div class="skill-level">Nível:
+                                <span class="star">&#9733;</span>
+                                <span class="star">&#9733;</span>
+                                <span class="star">&#9733;</span>
+                                <span class="star">&#9733;</span>
+                                <span class="star">&#9733;</span>
+
+                            </div>
+                            <p class="skill-text">Descrição:Tenho um bom entendimento claro dos conceitos
+                                fundamentais do HTML, incluindo marcação semântica, uso adequado de tags,
+                                estruturação de páginas web e talvez até mesmo conhecimentos mais avançados como
+                                formulários, tabelas e elementos de mídia. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="col-lg-6 col-md-6 mb-4">
+                <div class="skill-card">
+                    <div class="skill-content">
+                        <div class="skill-img-left">
+                            <img src="img/css.png" class="logo" alt="">
+                        </div>
+                        <div class="skill-text-right">
+                            <p class="title-skill">CSS</p>
+
+                            <div class="skill-level">Nivel:
+                                <span class="star">&#9733;</span>
+                                <span class="star">&#9733;</span>
+                                <span class="star">&#9733;</span>
+
+                            </div>
+                            <p class="skill-text">Descrição: Tenho um conhecimento sólido entendimento dos
+                                princípios básicos, demonstrando competência na aplicação de seletores, propriedades
+                                e valores. Além disso, minha capacidade de estilização vai além do básico, criando
+                                layouts visualmente atraentes e bem coordenados.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="col-lg-6 col-md-6 mb-4">
+                <div class="skill-card">
+                    <div class="skill-content">
+                        <div class="skill-img-left">
+                            <img src="img/js.png" class="logo" alt="">
+                        </div>
+                        <div class="skill-text-right">
+                            <p class="title-skill">JavaScript</p>
+
+                            <div class="skill-level">Nivel:
+                                <span class="star">&#9733;</span>
+                                <span class="star">&#9733;</span>
+                                <span class="star">&#9733;</span>
+                                <span class="star">&#9733;</span>
+                            </div>
+                            <p class="skill-text">Tenho uma intermediário em JavaScript, com habilidades sólidas na
+                                manipulação de objetos, uso de estruturas de controle e manipulação de arrays, tenho
+                                compreensão em interagir com formulários para coletar informações do usuário e
+                                mostra familiaridade com de manipulação do DOM e uso de event listeners. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 4 card -->
+            <div class="col-lg-6 col-md-6 mb-4">
+                <div class="skill-card">
+                    <div class="skill-content">
+                        <div class="skill-img-left">
+                            <img src="img/php.png" class="logo" alt="">
+                        </div>
+                        <div class="skill-text-right">
+                            <p class="title-skill">PHP</p>
+
+                            <div class="skill-level">Nivel:
+                                <span class="star">&#9733;</span>
+                                <span class="star">&#9733;</span>
+                                <span class="star">&#9733;</span>
+                                <span class="star">&#9733;</span>
+                            </div>
+                            <p class="skill-text">Descrição: Tenho um entendimento sólido de conceitos fundamentais
+                                de programação PHP, como manipulação de classes, métodos, interação com banco de
+                                dados e implementação de funcionalidades essenciais, como autenticação de usuários e
+                                validação de formulario.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 4 card -->
+            <div class="col-lg-6 col-md-6 mb-4">
+                <div class="skill-card">
+                    <div class="skill-content">
+                        <div class="skill-img-left">
+                            <img src="img/Excel.png" class="logo" alt="">
+                        </div>
+                        <div class="skill-text-right">
+                            <p class="title-skill">EXCEL</p>
+
+                            <div class="skill-level">Nivel:
+                                <span class="star">&#9733;</span>
+                                <span class="star">&#9733;</span>
+                                <span class="star">&#9733;</span>
+                                <span class="star">&#9733;</span>
+                            </div>
+                            <p class="skill-text">Descrição: Possuo um conhecimento sólido em Excel, abrangendo
+                                habilidades avançadas na manipulação de dados, criação de tabelas dinâmicas e
+                                gráficos. Além disso, estou familiarizado com diversas funções, incluindo as
+                                fundamentais como SE, PROCX e PROCV,que me permitem realizar análises complexas .
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 4 card -->
+            <div class="col-lg-6 col-md-6 mb-4">
+                <div class="skill-card">
+                    <div class="skill-content">
+                        <div class="skill-img-left">
+                            <img src="img/office.png" class="logo" alt="">
+                        </div>
+                        <div class="skill-text-right">
+                            <p class="title-skill">PACOTE OFFICE</p>
+
+                            <div class="skill-level">Nivel:
+                                <span class="star">&#9733;</span>
+                                <span class="star">&#9733;</span>
+                                <span class="star">&#9733;</span>
+                                <span class="star">&#9733;</span>
+                            </div>
+                            <p class="skill-text">Descrição: Tenho habilidades intermediárias no pacote Office. No
+                                Word, sou capaz de editar textos, aplicar formatações e alinhar conteúdos de maneira
+                                eficaz. No PowerPoint, consigo criar apresentações dinâmicas para projetos ou
+                                exposições em geral. No Outlook, domino o gerenciamento de emails, contatos e
+                                tarefas.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="hero_area-contatos">
+        <section class="sobreMim-section" id="sobreMim-project">
+            <img src="virada.png" alt="Hero Background" class="bg_img_box-contatos">
+            <div class="container sobreMim-container">
+                <div class="container sobreMim-container">
+                    <div class="row mb-4 align-items-center">
+                        <div class="col-lg-6 pr-lg-5 mb-5 mb-lg-0">
+                            <img src="img/programas.png" alt="Imagem de fundo" class="img-fluid contato-left">
+                        </div>
+                        <div class="col-md-6 pl-md-12">
+                            <div class="contatos-heading">
+                                <h2>Formas de contatos</h2>
+                            </div>
+                            <p class="contact-text">
+                                <i id="wpps" class="fab fa-whatsapp" style="margin-right: 5px;"></i>Telefone: (21)
+                                99343-2153
+                            </p>
+                            <p class="contact-text">
+                                <i id="email" class="fa fa-envelope" style="margin-right: 5px;"></i>Email:
+                                Lukas.silvalsm@hotmail.com
+                            </p>
+                            <p class="contact-text">
+                                <i class='bx bxl-github' style="margin-right: 5px;"></i>Github: <a
+                                    href="https://github.com/LucaSilvalsm">LucaSilvalsm</a>
+                            </p>
+                            <p class="contact-text">
+                                <i class='bx bxl-linkedin-square' style="margin-right: 5px;"></i>Linkedin: <a
+                                    href="https://www.linkedin.com/in/lucas-da-silva-moreira/">Lucas Da Silva
+                                    Moreira</a>
+                            </p>
+                            <p class="contact-text">
+                                <i class="fas fa-download"></i> <a href="Lucas Curriculo.pdf" download>BAIXAR CURRICULO</a>
+                            </p>
+
+                            
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+    </div>
+    </section>
+    </section>
+
+</body>
+
+</html>
