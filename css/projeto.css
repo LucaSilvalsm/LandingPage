@@ -1,0 +1,49 @@
+/* Estilizando a seta do carrossel */
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    filter: invert(100%); /* Inverte a cor para preto */
+}
+
+/* Estilizando os indicadores de slide */
+.carousel-indicators .active {
+    background-color: black; /* Cor de fundo preto para o indicador ativo */
+   
+}
+
+.carousel-indicators li {
+   
+   
+    background-color: rgb(25, 0, 255);
+}
+.carouselExampleIndicators{
+    color: blue;
+}
+
+
+#carouselUsuario .carousel-indicators .active {
+    background-color: black; /* Cor de fundo preto para o indicador ativo */
+}
+
+#carouselAdmin .carousel-indicators .active {
+    background-color: black; /* Cor de fundo preto para o indicador ativo */
+}
+#carouselFilme .carousel-indicators .active {
+    background-color: black; /* Cor de fundo preto para o indicador ativo */
+}
+
+/* Estilizando a seta do carrossel */
+#carouselUsuario .carousel-control-prev-icon, #carouselUsuario .carousel-control-next-icon,
+#carouselFilme .carousel-control-prev-icon, #carouselFilme .carousel-control-next-icon,
+#carouselCurriculo .carousel-control-prev-icon, #carouselCurriculo .carousel-control-next-icon,
+#carouselBlog .carousel-control-prev-icon, #carouselBlog .carousel-control-next-icon,
+#carouselTarefa .carousel-control-prev-icon, #carouselTarefa .carousel-control-next-icon,
+
+
+
+
+#carouselAdmin .carousel-control-prev-icon, #carouselAdmin .carousel-control-next-icon,#carouselBlog .carouselBlog-control-prev-icon, #carouselBlog .carouselBlog-control-next-icon {
+    filter: invert(100%); /* Inverte a cor para preto */
+}
+
+#carouselFilme .carousel-control-prev-icon, #carouselFilme .carousel-control-next-icon{
+    filter:invert(00%)
+}
